@@ -1,0 +1,30 @@
+# Segredos e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Dependências e builds
+node_modules/
+dist/
+build/
+.next/
+coverage/
+playwright-report/
+test-results/
+__pycache__/
+.venv/
+
+# Configuração de hospedagem (evita vincular a projetos existentes por acidente)
+.vercel/
+.netlify/
+.firebase/
+.supabase/
+
+# Sistema e editor
+.DS_Store
+*.log
+.idea/
+.vscode/

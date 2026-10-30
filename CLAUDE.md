@@ -32,10 +32,17 @@ autorização.
 ## 2. O projeto
 
 - Plataforma de descoberta local, comunidade, avaliações e recompensas.
-- Pasta: `plataforma-local/` (nome provisório). Repositório GitHub: ainda não criado.
-- Stack: **ainda não definida** (decisão pendente, ver `docs/STATUS_DO_PROJETO.md`).
+- Pasta: `plataforma-local/` (nome provisório).
+- Repositório GitHub: `srnilton/Plataforma`, confirmado como o repositório novo desta
+  plataforma. Nenhum outro repositório do dono deve ser aberto ou alterado.
+- Ordem de trabalho definida pelo dono: primeiro rodar localmente; nuvem e provedores só
+  depois, com autorização.
+- Especificação do produto: `docs/superpowers/specs/2026-10-29-especificacao-do-produto.md`.
+  É a fonte de verdade do escopo.
+- Stack: candidata na especificação, proposta em `docs/ARQUITETURA_RECOMENDADA.md`, ainda
+  não aprovada.
 - Escopo atual: somente a Versão 1, conforme `docs/superpowers/plans/2026-10-29-versao-1.md`.
-  Não antecipar funcionalidades de versões futuras.
+  Não antecipar as Atualizações 1 a 5.
 
 ## 3. Convenções
 

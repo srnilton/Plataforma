@@ -24,9 +24,12 @@ Cada item abaixo foi checado por comando ou consulta. O que não foi confirmado 
 
 ## GitHub
 
-- `list_repos` retornou lista vazia: nenhum repositório está acessível a esta sessão.
-- Consequências: não é possível criar o repositório novo no GitHub a partir daqui, e também
-  não há acesso ao repositório do site atual (o que protege o site).
+- Primeira verificação: `list_repos` retornou lista vazia.
+- Verificação posterior (depois de o dono criar o repositório): `list_repos` retornou um
+  único repositório, `srnilton/Plataforma` (público, com permissão de envio).
+- O `gh` continua com token inválido. O acesso ao repositório, se confirmado, passa pelo
+  mecanismo de anexar repositório à sessão, não pelo `gh`.
+- Nenhum outro repositório é visível, então o do site atual não está acessível a esta sessão.
 
 ## Conectores
 
